@@ -1,10 +1,11 @@
 package com.example.javastudy;
 
-public class MainApplication {
+public class MainApplication_2week {
     public static void main(String[] args) {
 
         //  연습문제 2-1
-        /*boolean = 논리형 (1byte)
+        /*
+        boolean = 논리형 (1byte)
         byte = 정수형 (1byte)
         int = 정수형 (4byte)
         char  = 문자형 (2byte)
@@ -21,83 +22,83 @@ public class MainApplication {
 
         //연습문제 2-3
         /*
-        * int i = 100;
-        * long l = 100L;
-        * final float PI = 3.14f
-        *
-        *  리터럴  : 100 , 100l , 3.14f
-        *  변수 :  i , l
-        *  키워드 : int , long , float
-        *  상수 : PI
-        * */
+         * int i = 100;
+         * long l = 100L;
+         * final float PI = 3.14f
+         *
+         *  리터럴  : 100 , 100l , 3.14f
+         *  변수 :  i , l
+         *  키워드 : int , long , float
+         *  상수 : PI
+         * */
 
         //연습문제 2-4
         /*
-        * 기본형 타입엔 총 4가지 정수형, 실수형, 문자형 , 논리형
-        *  int >> 4byte 크기의 정수형
-        *  Byte >> 1byte 최소 단위 정수형
-        *  double >> 8byte 긴 단위 실수형
-        *  boolean >> true , flase 1byte 단위 논리형
-        *
-        *  답 기본형이 아닌것은 없는 것으로 판단.
-        * */
+         * 기본형 타입엔 총 4가지 정수형, 실수형, 문자형 , 논리형
+         *  int >> 4byte 크기의 정수형
+         *  Byte >> 1byte 최소 단위 정수형
+         *  double >> 8byte 긴 단위 실수형
+         *  boolean >> true , flase 1byte 단위 논리형
+         *
+         *  답 기본형이 아닌것은 없는 것으로 판단.
+         * */
 
         //연습문제 2-5
         /*
-        * 1. System.out.println( "1" + "2"  ) => ( "12" )
-        * 2. System.out.println( true + "" )  => ( true )
-        * 3. System.out.println( 'A' + 'B' )  => ( 'AB' ) // 'A' 의 아스키 코드 65 'B' 의 아스키 코드 66 이 합쳐진 131
-        * 4. System.out.println( '1' + 2 ) => ( 51 )
-        * 5. System.out.println( '1' + '2' ) => ('12') // '1'의 아스키 코드 49 '2'의 아스키코드 50 이 합쳐진 99
-        * 6. System.out.println( 'J' + "ava" ) => ( Java )
-        * 7. System.out.println( true + null ) => ( error )
-        * */
+         * 1. System.out.println( "1" + "2"  ) => ( "12" )
+         * 2. System.out.println( true + "" )  => ( true )
+         * 3. System.out.println( 'A' + 'B' )  => ( 'AB' ) // 'A' 의 아스키 코드 65 'B' 의 아스키 코드 66 이 합쳐진 131
+         * 4. System.out.println( '1' + 2 ) => ( 51 )
+         * 5. System.out.println( '1' + '2' ) => ('12') // '1'의 아스키 코드 49 '2'의 아스키코드 50 이 합쳐진 99
+         * 6. System.out.println( 'J' + "ava" ) => ( Java )
+         * 7. System.out.println( true + null ) => ( error )
+         * */
 
         //연습문제 2-6
         /*
-        * 답 : True  , NULL,
-        * */
+         * 답 : True  , NULL,
+         * */
 
         //연습문제 2-7
         /*
-        * 답 : $ystem , 자바, $MAX_NUM
-        * */
+         * 답 : $ystem , 자바, $MAX_NUM
+         * */
 
         //연습문제 2-8
         /*
-        * 참조형 변수는 포인터 .. 1byte ? ... boolean or byte
-        * 답은 없다..
-        *
-        * */
+         * 참조형 변수는 포인터 .. 1byte ? ... boolean or byte
+         * 답은 없다..
+         *
+         * */
 
         //연습문제 2-9
         /*
-        *  답 :  float f = (float) l ;
-        *       i = (int) ch;
-        * */
+         *  답 :  float f = (float) l ;
+         *       i = (int) ch;
+         * */
 
         //연습문제 2-10
         /*
-        * 답 : char =  > 2byte = 16bit ;  2의 16 제곱인  65536개
-        * */
+         * 답 : char =  > 2byte = 16bit ;  2의 16 제곱인  65536개
+         * */
 
         //연습문제 2-11
         /*
-        *  byte b  = 127 이하 로 해야한다.
-        *  float f = 3.14 f 로 해야한다.
-        *
-        *  답 : a , d
-        * */
+         *  byte b  = 127 이하 로 해야한다.
+         *  float f = 3.14 f 로 해야한다.
+         *
+         *  답 : a , d
+         * */
 
         //연습문제 2-12
         /*
-        * 답 : a
-        * */
+         * 답 : a
+         * */
 
         //연습문제 2-13
         /*
-        * 답 : b ,c
-        * */
+         * 답 : b ,c
+         * */
 
         //연습문제 3-1
         /*
